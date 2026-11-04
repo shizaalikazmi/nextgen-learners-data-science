@@ -1,50 +1,99 @@
-# Nextgen-Learners-Data-Science-week1
+# NextGen Learners – Data Science Internship
 
-# Applicant Data Cleaning & Preprocessing Pipeline 🚀
+Welcome to my **Data Science Internship Projects Repository** at NextGen Learners!
 
-**Author:** Shiza Ali  
-**Program:** NextGen Learners Data Science Internship Program  
-**Milestone:** Week 1 — Foundations: Cleaning & Exploring the Applicant Dataset
+This repository contains the tasks and projects completed during my Data Science Internship. Each week's task focuses on developing practical skills in data cleaning, exploratory data analysis, SQL, and dashboard development using Python and related tools.
+
+## 📌 Internship Tasks
+
+### Week 1 – Data Cleaning
+**Objective:** Clean and prepare the applicants dataset for further analysis.
+
+Key Activities:
+- Inspecting the dataset structure and data types.
+- Identifying and handling missing values.
+- Detecting and removing duplicate records.
+- Handling inconsistent and invalid values.
+- Preparing a cleaned dataset for analysis.
+
+**Tools:** Python, Pandas, Jupyter Notebook.
+
+### Week 2 – Exploratory Data Analysis (EDA)
+**Objective:** Explore the cleaned applicants dataset and discover meaningful insights.
+
+Key Activities:
+- Analyzing applicant distributions.
+- Exploring application trends.
+- Comparing applicants across different domains.
+- Analyzing application statuses.
+- Creating visualizations to communicate findings.
+
+**Tools:** Python, Pandas, Matplotlib, Jupyter Notebook.
+
+### Week 3 – SQL & Streamlit Dashboard
+**Objective:** Store, analyze, and visualize internship-related data using SQL and an interactive dashboard.
+
+Key Activities:
+- Creating a SQLite database.
+- Working with applicants, interns, and hackathon scores tables.
+- Writing SQL queries for data analysis.
+- Developing an interactive dashboard using Streamlit.
+- Analyzing intern completion, hackathon scores, top performers, and applicant conversion.
+
+**Tools:** Python, SQLite, SQL, Pandas, Streamlit.
+
+## 🛠️ Technologies & Tools
+- Python
+- Pandas
+- Matplotlib
+- SQLite
+- SQL
+- Streamlit
+- Jupyter Notebook
+- Google Colab
+- GitHub
+
+## 📂 Repository Structure
+
+```text
+nextgen-learners-data-science/
+│
+├── README.md
+├── applicants.csv
+├── applicants_cleaned.xls
+├── _Week1_Data_Cleaning_Shiza Ali.ipynb
+├── Week2_EDA_Shiza Ali.ipynb
+│
+└── Week3_SQL_Streamlit_Dashboard/
+    ├── README.md
+    ├── dashboard.py
+    ├── nextgen.db
+    ├── requirements.txt
+    ├── dashboard.ipynb
+    ├── notebooks/
+    └── datasets/
+```
+
+*Note: The structure above represents the intended organization. File and folder names may vary depending on the uploaded files.*
+
+## 🎯 Learning Outcomes
+
+Through these tasks, I am developing practical skills in:
+
+- Data preprocessing and data quality management.
+- Exploratory data analysis and visualization.
+- SQL database management and querying.
+- Building interactive data dashboards.
+- Communicating insights through data.
+
+## 👩‍💻 About This Repository
+
+This repository represents my learning journey as a Data Science student and my practical experience during the **NextGen Learners Data Science Internship Program**.
+
+I look forward to continuously improving my analytical, programming, and problem-solving skills through hands-on projects.
+
+**Internship Organization:** NextGen Learners
 
 ---
 
-## 📌 Project Overview
-Real-world datasets are rarely clean. This project demonstrates foundational data wrangling and exploratory data analysis (EDA) techniques using **Python** and **Pandas**. The goal was to take a raw applicant dataset containing structural errors, missing values, duplicates, and inconsistent formatting, and transform it into a robust, analysis-ready dataset.
-
----
-
-## 🛠️ Key Steps & Data Cleaning Pipeline
-
-1. **Initial Exploration (`df.info()`, `df.describe()`):**
-   - Assessed dataset shape (`80 rows, 7 columns`) and identified missing values, exact duplicates, and incorrect data types.
-
-2. **Handling Missing Values:**
-   - **Applicant Name:** Dropped rows missing names as they are critical identifiers.
-   - **Email:** Imputed missing values with a placeholder (`"not_provided@example.com"`) to preserve sample size.
-   - **University:** Imputed missing values with `"Not Specified"`.
-   - **Status:** Filled missing entries with `"Under Review"` as a logical default state.
-
-3. **Duplicate Detection:**
-   - Identified and removed exact and near-duplicate applications (reducing dataset size from 78 to 73 records) using a unique cleaned `Email` identifier rather than prone-to-error names.
-
-4. **Text Standardization:**
-   - Standardized `Domain Applied` variations (e.g., `web dev`, `webdev`, `WEB DEV`) into 5 clean core categories.
-   - Standardized `Status` capitalization using string methods (`.str.strip().str.title()`).
-
-5. **Data Type Correction & Imputation:**
-   - Converted `Application Date` to proper `datetime64[ns]` format (handling overflow artifacts like `########`) and used forward fill (`.ffill()`) to resolve missing date values without dropping records.
-   - Cleaned `Phone` numbers by stripping hyphens and spaces while maintaining string format to preserve crucial leading zeros.
-
----
-
-## 📊 Final Dataset Summary
-* **Starting Shape:** 80 rows, 7 columns
-* **Final Shape:** 73 rows, 7 columns
-* **Data Quality:** Zero missing values in critical fields, duplicates removed, and uniform formatting across all attributes.
-
----
-
-## 🚀 Technologies Used
-* **Python**
-* **Pandas**
-* **Jupyter Notebook**
+⭐ Thank you for visiting my repository!
