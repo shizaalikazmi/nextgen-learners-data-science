@@ -88,6 +88,7 @@ nextgen-learners-data-science/
 ├── Week3_SQL_Streamlit_Dashboard/
 │   ├── README.md
 │   ├── dashboard.py
+│   ├── creating database and writing queries.ipynb
 │   ├── nextgen.db
 │   ├── requirements.txt
 │   ├── dashboard.ipynb
@@ -98,6 +99,7 @@ nextgen-learners-data-science/
     ├── README.md
     ├── Week4_Capstone_Shiza_Ali.ipynb
     └── applicants_cleaned.csv
+    ├── applicants_feature_engineered.csv
 ```
 
 *Note: File and folder names may vary depending on the final uploaded files.*
