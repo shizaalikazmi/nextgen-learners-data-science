@@ -2,14 +2,14 @@
 
 Welcome to my **Data Science Internship Projects Repository** at NextGen Learners!
 
-This repository contains the tasks and projects completed during my Data Science Internship. Each week's task focuses on developing practical skills in data cleaning, exploratory data analysis, SQL, and dashboard development using Python and related tools.
+This repository showcases the tasks and projects I completed during my Data Science Internship. Each week's task focuses on developing practical skills in data cleaning, exploratory data analysis, SQL, dashboard development, and machine learning using Python and related tools.
 
 ## 📌 Internship Tasks
 
 ### Week 1 – Data Cleaning
 **Objective:** Clean and prepare the applicants dataset for further analysis.
 
-Key Activities:
+**Key Activities:**
 - Inspecting the dataset structure and data types.
 - Identifying and handling missing values.
 - Detecting and removing duplicate records.
@@ -21,7 +21,7 @@ Key Activities:
 ### Week 2 – Exploratory Data Analysis (EDA)
 **Objective:** Explore the cleaned applicants dataset and discover meaningful insights.
 
-Key Activities:
+**Key Activities:**
 - Analyzing applicant distributions.
 - Exploring application trends.
 - Comparing applicants across different domains.
@@ -33,7 +33,7 @@ Key Activities:
 ### Week 3 – SQL & Streamlit Dashboard
 **Objective:** Store, analyze, and visualize internship-related data using SQL and an interactive dashboard.
 
-Key Activities:
+**Key Activities:**
 - Creating a SQLite database.
 - Working with applicants, interns, and hackathon scores tables.
 - Writing SQL queries for data analysis.
@@ -42,10 +42,31 @@ Key Activities:
 
 **Tools:** Python, SQLite, SQL, Pandas, Streamlit.
 
+### Week 4 – Machine Learning Capstone: Predicting Internship Selection Outcomes
+**Objective:** Develop a machine learning model to predict internship selection outcomes by analyzing applicant-related features.
+
+**Key Activities:**
+- Preparing the dataset for machine learning.
+- Engineering applicant-related features.
+- Encoding categorical variables using One-Hot Encoding.
+- Separating features and the target variable.
+- Splitting the dataset into training and testing sets.
+- Training a Logistic Regression classification model.
+- Evaluating model performance using accuracy, precision, recall, and a confusion matrix.
+- Interpreting model coefficients to understand feature relationships.
+- Documenting findings, limitations, and ethical considerations.
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebook.
+
+**Note:** Some applicant features used in this capstone were simulated for educational purposes and do not represent actual historical applicant information.
+
 ## 🛠️ Technologies & Tools
+
 - Python
 - Pandas
+- NumPy
 - Matplotlib
+- Scikit-learn
 - SQLite
 - SQL
 - Streamlit
@@ -64,33 +85,43 @@ nextgen-learners-data-science/
 ├── _Week1_Data_Cleaning_Shiza Ali.ipynb
 ├── Week2_EDA_Shiza Ali.ipynb
 │
-└── Week3_SQL_Streamlit_Dashboard/
+├── Week3_SQL_Streamlit_Dashboard/
+│   ├── README.md
+│   ├── dashboard.py
+│   ├── nextgen.db
+│   ├── requirements.txt
+│   ├── dashboard.ipynb
+│   ├── notebooks/
+│   └── datasets/
+│
+└── Week4_Capstone_Predicting_Internship_Selection/
     ├── README.md
-    ├── dashboard.py
-    ├── nextgen.db
-    ├── requirements.txt
-    ├── dashboard.ipynb
-    ├── notebooks/
-    └── datasets/
+    ├── Week4_Capstone_Shiza_Ali.ipynb
+    └── applicants_cleaned.csv
 ```
 
-*Note: The structure above represents the intended organization. File and folder names may vary depending on the uploaded files.*
+*Note: File and folder names may vary depending on the final uploaded files.*
 
 ## 🎯 Learning Outcomes
 
-Through these tasks, I am developing practical skills in:
+Through these internship tasks, I have been developing practical skills in:
 
 - Data preprocessing and data quality management.
-- Exploratory data analysis and visualization.
+- Exploratory data analysis and data visualization.
 - SQL database management and querying.
-- Building interactive data dashboards.
-- Communicating insights through data.
+- Developing interactive dashboards using Streamlit.
+- Machine learning model development and evaluation.
+- Feature engineering and data preparation.
+- Interpreting analytical results and communicating insights.
+- Understanding limitations, fairness, and ethical considerations in data-driven decision-making.
 
 ## 👩‍💻 About This Repository
 
 This repository represents my learning journey as a Data Science student and my practical experience during the **NextGen Learners Data Science Internship Program**.
 
-I look forward to continuously improving my analytical, programming, and problem-solving skills through hands-on projects.
+Each task has helped me strengthen my technical knowledge and gain hands-on experience in solving data-related problems through practical projects.
+
+I look forward to continuously improving my analytical, programming, and problem-solving skills through hands-on learning and real-world applications.
 
 **Internship Organization:** NextGen Learners
 
